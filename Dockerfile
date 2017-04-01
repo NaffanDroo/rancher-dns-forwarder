@@ -1,7 +1,7 @@
 FROM alpine:3.4
 
 RUN apk --update upgrade && \
-    apk add --update bind && \
+    apk add --update bind bash && \
     rm -rf /var/cache/apk/*
 
 EXPOSE 53/udp
