@@ -11,6 +11,6 @@ Named is currently configured to:
 > Use this container to access ranchers DNS when connected with OpenVPN while still resolving external IP's for any Amazon domains.
 
 ### Configuration / Installation
-  - Launch the container in [Rancher](http://rancher.com/). Pull it from Docker Hub at gevert/rancher-dns-forwarder.
+  - Launch the container in [Rancher](http://rancher.com/). Pull it from Docker Hub at [gevert/rancher-dns-forwarder](https://hub.docker.com/r/gevert/rancher-dns-forwarder/).
   - Configure a static ip for the container in it's network settings.
 
