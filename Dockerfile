@@ -10,7 +10,7 @@ WORKDIR /etc/bind
 ADD ./docker/conf/named.conf /etc/bind/named.conf
 
 ADD ./docker/entrypoint.sh /entrypoint.sh
-RUN chmod 750 /entrypoint.sh
+RUN chmod +x /entrypoint.sh
 
 ENTRYPOINT ["/entrypoint.sh"]
 
