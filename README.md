@@ -8,7 +8,7 @@ Named is currently configured to:
   - Send other dns requests to 8.8.8.8 dns server.
 
 
-> I use this container to access ranchers DNS when connected with OpenVPN while still resolving external IP's for any Amazon domains I'm connecting to.
+> Use this container to access ranchers DNS when connected with OpenVPN while still resolving external IP's for any Amazon domains I'm connecting to.
 
 ### Configuration / Installation
   - Launch the container in Rancher.
